@@ -3,11 +3,11 @@ import { SwRegister } from "@/components/SwRegister";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "ClipPlan — AI Pre-Production Planner for Short-Form Video",
+  title: "crutha.ai — AI Pre-Production Planner for Short-Form Video",
   description: "From Product Brief to Shoot-Ready Video Plan. Hook, script, scene, shot list, dan editing guide untuk TikTok, Reels, dan Shorts.",
   manifest: "/manifest.webmanifest",
   icons: { icon: "/icon.svg", apple: "/icon.svg" },
-  appleWebApp: { capable: true, title: "ClipPlan", statusBarStyle: "default" },
+  appleWebApp: { capable: true, title: "crutha.ai", statusBarStyle: "default" },
 };
 
 export const viewport: Viewport = {

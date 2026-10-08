@@ -1,4 +1,4 @@
-# ClipPlan — AI Pre-Production Planner for Short-Form Video
+# crutha.ai — AI Pre-Production Planner for Short-Form Video
 
 From Product Brief to Shoot-Ready Video Plan. (Next.js 15 · React 19 · TypeScript · Tailwind · PostgreSQL)
 

@@ -5,7 +5,7 @@ import { PLANS, formatIdr } from "@/config/pricing";
 
 const steps = [
   ["1", "Enter Your Product", "Isi nama produk, audiens, platform, dan gaya konten. Cukup satu form singkat."],
-  ["2", "Generate Your Plan", "ClipPlan menyusun hook, script per timestamp, scene, shot list, dan editing guide."],
+  ["2", "Generate Your Plan", "crutha.ai menyusun hook, script per timestamp, scene, shot list, dan editing guide."],
   ["3", "Shoot & Edit", "Centang shot saat merekam, lalu kirim plan ke editor. Tanpa bolak-balik brief."],
 ];
 const why = [
@@ -79,7 +79,7 @@ export default function Landing() {
       </section>
 
       <section className="mx-auto max-w-6xl px-5 pb-20">
-        <h2 className="mb-8 text-center text-2xl font-bold">Why ClipPlan?</h2>
+        <h2 className="mb-8 text-center text-2xl font-bold">Why crutha.ai?</h2>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {why.map(([t, d]) => (
             <div key={t} className="card"><h3 className="font-semibold">{t}</h3><p className="mt-1 text-sm text-sub">{d}</p></div>
@@ -103,7 +103,7 @@ export default function Landing() {
       </section>
 
       <footer className="border-t border-line py-8 text-center text-sm text-sub">
-        © {new Date().getFullYear()} ClipPlan — From Product Brief to Shoot-Ready Video Plan.
+        © {new Date().getFullYear()} crutha.ai — From Product Brief to Shoot-Ready Video Plan.
       </footer>
     </div>
   );

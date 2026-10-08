@@ -28,7 +28,7 @@ export function AuthForm({ mode }: { mode: "login" | "signup" }) {
       <div className="w-full max-w-sm">
         <div className="mb-6 flex justify-center"><Logo /></div>
         <form onSubmit={submit} className="card space-y-4">
-          <h1 className="text-lg font-semibold">{signup ? "Buat akun gratis" : "Masuk ke ClipPlan"}</h1>
+          <h1 className="text-lg font-semibold">{signup ? "Buat akun gratis" : "Masuk ke crutha.ai"}</h1>
           {signup && <div><label className="label">Nama</label><input name="name" required className="input" autoComplete="name" /></div>}
           <div><label className="label">Email</label><input name="email" type="email" required className="input" autoComplete="email" /></div>
           <div><label className="label">Password</label><input name="password" type="password" required minLength={signup ? 8 : 1} className="input" autoComplete={signup ? "new-password" : "current-password"} /></div>

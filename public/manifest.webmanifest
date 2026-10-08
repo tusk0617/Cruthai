@@ -1,0 +1,13 @@
+{
+  "name": "ClipPlan — AI Pre-Production Planner",
+  "short_name": "ClipPlan",
+  "description": "From Product Brief to Shoot-Ready Video Plan.",
+  "start_url": "/dashboard",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fafaf9",
+  "theme_color": "#4f46e5",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

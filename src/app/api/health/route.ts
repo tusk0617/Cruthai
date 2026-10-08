@@ -31,7 +31,7 @@ export async function GET() {
       await query("select 1");
       checks.db = "ok";
     } catch (e) {
-      const err = e as { code?: string; message?: string; errors?: { code?: string }[] };
+      const err = e as { name?: string; code?: string; errors?: { code?: string }[] };
       const code = err.code ?? err.errors?.[0]?.code ?? "";
       checks.db = HINTS[code] ?? `Gagal terhubung (${code || err.name || "error"})`;
     }

@@ -17,7 +17,7 @@ export const viewport: Viewport = {
   themeColor: "#4f46e5",
 };
 
-const themeScript = `try{var t=localStorage.getItem("cp-theme");if(t==="dark"||(!t&&matchMedia("(prefers-color-scheme: dark)").matches))document.documentElement.classList.add("dark")}catch(e){}`;
+const themeScript = `try{var t=localStorage.getItem("cp-theme");if(t==="dark"||(!t&&(location.pathname==="/"||matchMedia("(prefers-color-scheme: dark)").matches)))document.documentElement.classList.add("dark")}catch(e){}`;
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
